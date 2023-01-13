@@ -36,6 +36,14 @@ socialLinks:
   icon: "fab fa-github"
   url: "https://www.github.com/devdalgic"
 
+- name: DEV Community
+  icon: "fab fa-dev"
+  url: "https://dev.to/denizhan"
+
+- name: Medium
+  icon: "fab fa-medium"
+  url: "https://denizhandalgic.medium.com/"
+
 # - name: Stackoverflow
 #   icon: "fab fa-stack-overflow"
 #   url: "#"
