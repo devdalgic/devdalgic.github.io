@@ -21,6 +21,16 @@ section:
 
 # your publications
 publications:
+- title: Software Development Lifecycle
+  publishedIn:
+    name: University of Minnesota
+    date: February 2023
+  paper:
+    # summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
+    url: https://coursera.org/verify/specialization/34FCFEHVZAH2
+  categories: ["software","agile","lean"]
+  tags: ["Software Development", "Lean Methods", "Agile Framework"]
+
 - title: Six Sigma Yellow Belt
   publishedIn:
     name: University System of Georgia
