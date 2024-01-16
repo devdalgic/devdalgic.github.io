@@ -12,6 +12,7 @@ export default function Navbar() {
 
     const handleRedirect = (url: string) => {
         trackEvent("visit", {url});
+        // @ts-ignore
         window.open(userData.socialLinks[url] as string, "_blank");
     }
 
