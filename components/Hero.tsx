@@ -1,6 +1,5 @@
 import React from "react";
 import {RoughNotation, RoughNotationGroup} from "react-rough-notation";
-import Image from "next/image";
 
 export default function Hero() {
     const animationDuration = Math.floor(200);
@@ -73,7 +72,7 @@ export default function Hero() {
             {/* Image container */}
             <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
                 <div className="w-3/4 ">
-                    <Image src={"/nextjs-github-pages/dd.jpeg"} alt="avatar" className=" shadow rounded-2xl" width={320} />
+                    <img src={"/nextjs-github-pages/dd.jpeg"} alt="avatar" className=" shadow rounded-2xl" width={320} />
                 </div>
             </div>
         </div>
