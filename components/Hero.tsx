@@ -69,7 +69,7 @@ export default function Hero() {
             </div>
             {/* Image container */}
             <div className="mt-4 g:mt-20">
-                <img src={"/dd.jpg"} alt="avatar" className="shadow rounded-2xl object-contain" />
+                <img src={"/dd.JPG"} alt="avatar" className="shadow rounded-2xl object-contain" />
             </div>
         </div>
     );
