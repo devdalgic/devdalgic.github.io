@@ -8,10 +8,8 @@ export default function Hero() {
     const iterations = 5
     const colors = ["#F59E0B", "#84CC16", "#10B981", "#3B82F6"];
     return (
-        <div className="flex flex-row justify-center items-start overflow-hidden">
-            {/* Text container */}
-
-            <div className="w-full md:w-1/2 mx-auto text-center md:text-left lg:p-20">
+        <div className="flex flex-col lg:flex-row items-center content-center pb-4 px-36">
+            <div className="text-center lg:text-start lg:me-20">
                 <RoughNotationGroup show={true}>
                     <RoughNotation
                         type="underline"
@@ -70,10 +68,8 @@ export default function Hero() {
                 </RoughNotationGroup>
             </div>
             {/* Image container */}
-            <div className="hidden lg:block relative w-full md:w-1/2 -mr-40 mt-20">
-                <div className="w-3/4 ">
-                    <img src={"/dd.jpeg"} alt="avatar" className=" shadow rounded-2xl" width={320} />
-                </div>
+            <div className="mt-4 g:mt-20">
+                <img src={"/dd.jpg"} alt="avatar" className="shadow rounded-2xl object-contain" />
             </div>
         </div>
     );

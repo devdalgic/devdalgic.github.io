@@ -17,8 +17,8 @@ export default function Navbar() {
     }
 
     return (
-        <div className="w-full pt-6 px-4 flex md:flex-row justify-around">
-            <div className="flex flex-col">
+        <div className="w-full pt-6 px-4 flex flex-col lg:flex-row justify-around">
+            <div className="flex flex-col items-center lg:items-start">
                 <Link href="/">
                     <h1 className="font-semibold text-xl text-gray-100">
                         Denizhan Dalgic
@@ -108,44 +108,44 @@ export default function Navbar() {
             {/*    </ScrollLink>*/}
             {/*</div>*/}
 
-            <div className="space-x-6 flex flex-row items-center">
+            <div className="space-x-6 flex flex-row my-6 lg:my-0 place-content-center lg:place-content-end">
                 <button onClick={() => handleRedirect("linkedin")} className={"cursor-pointer"}>
-                    <FaLinkedinIn size={24}/>
+                    <FaLinkedinIn size={32}/>
                 </button>
                 <button onClick={() => handleRedirect("github")}
                         className="text-base font-normal text-gray-300 cursor-pointer"
                 >
-                    <FaGithub size={24}/>
+                    <FaGithub size={32}/>
                 </button>
                 <button onClick={() => handleRedirect("medium")}
                         className="text-base font-normal text-gray-300 cursor-pointer"
                 >
-                    <FaMedium size={24}/>
+                    <FaMedium size={32}/>
                 </button>
                 <button onClick={() => handleRedirect("devto")}
                         className="text-base font-normal text-gray-300 cursor-pointer"
                 >
-                    <FaDev size={24}/>
+                    <FaDev size={32}/>
                 </button>
                 <button onClick={() => handleRedirect("bento")}
                         className="text-base font-normal text-gray-300 cursor-pointer"
                 >
-                    <SiBento size={24}/>
+                    <SiBento size={32}/>
                 </button>
                 <button onClick={() => handleRedirect("threadsn")}
                         className="text-base font-normal text-gray-300 cursor-pointer"
                 >
-                    <FaThreads size={24}/>
+                    <FaThreads size={32}/>
                 </button>
                 <button onClick={() => handleRedirect("twitter")}
                         className="text-base font-normal text-gray-300 cursor-pointer"
                 >
-                    <FaXTwitter size={24}/>
+                    <FaXTwitter size={32}/>
                 </button>
                 <button onClick={() => handleRedirect("instagram")}
                         className="text-base font-normal text-gray-300 cursor-pointer"
                 >
-                    <FaInstagram size={24}/>
+                    <FaInstagram size={32}/>
                 </button>
                 {/*<button onClick={() => handleRedirect("telegram")}*/}
                 {/*        className="text-base font-normal text-gray-600 dark:text-gray-300 cursor-pointer"*/}

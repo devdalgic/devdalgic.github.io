@@ -7,9 +7,9 @@ export default function Skills() {
     return (
         <section className="bg-gray-800 py-10">
             <div className="max-w-6xl mx-auto">
-                <div className="flex flex-row md:flex-row items-center">
+                <div className="flex flex-row max-w-6xl mx-auto place-content-center lg:place-content-start">
                     <FaTools size={64} color={"white"} className={"self-center me-6"}/>
-                    <h1 className="text-4xl lg:text-8xl font-bold">
+                    <h1 className="text-4xl lg:text-8xl self-center font-bold pb-4">
                         Skills
                     </h1>
                 </div>

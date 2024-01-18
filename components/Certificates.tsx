@@ -6,9 +6,9 @@ export default function Certificates() {
     return (
         <section className="bg-gray-900 py-10">
             <div className="max-w-6xl mx-auto">
-                <div className="flex flex-row md:flex-row items-center">
+                <div className="flex flex-row max-w-6xl mx-auto place-content-center lg:place-content-start">
                     <PiCertificateFill size={64} color={"white"} className={"self-center me-6"} />
-                    <h1 className="text-4xl lg:text-8xl font-bold">
+                    <h1 className="text-4xl lg:text-8xl font-bold self-center pb-4">
                         Certificates
                     </h1>
                 </div>

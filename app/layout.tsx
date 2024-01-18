@@ -7,8 +7,22 @@ import {AptabaseProvider} from "@aptabase/react";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Denizhan Dalgic',
+  title: 'Denizhan Dalgic Portfolio Website',
   description: 'Personal website of Denizhan Dalgic',
+    keywords: ["denizhan", "dalgic", "denizhandalgic", "denizhan dalgic", "denizhan dalgıç", "portfolio", "devdalgic"],
+    creator: "Denizhan Dalgic",
+    authors: [{name: "Denizhan Dalgic"}],
+    robots: "index, follow",
+    openGraph: {
+        type: "website",
+        url: "https://devdalgic.github.io",
+        title: "Denizhan Dalgic Portfolio Website",
+        description: "Personal website of Denizhan Dalgic",
+        siteName: "Denizhan Dalgic Portfolio Website",
+        images: [{
+            url: "https://devdalgic.github.io/dd.jpg",
+        }],
+    }
 }
 
 export default function RootLayout({
