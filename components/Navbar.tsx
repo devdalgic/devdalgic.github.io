@@ -110,41 +110,41 @@ export default function Navbar() {
 
             <div className="my-6 lg:my-0 place-content-center lg:place-content-end
             grid lg:grid-rows-1 lg:grid-cols-8 lg:gap-y-0 gap-x-12 grid-cols-4 grid-rows-2 gap-y-6">
-                <button onClick={() => handleRedirect("linkedin")} className={"cursor-pointer hover:bg-gray-800 p-1 rounded-l"}>
+                <button onClick={() => handleRedirect("linkedin")} className={"cursor-pointer hover:bg-gray-800 p-1 rounded-lg"}>
                     <FaLinkedinIn size={32} color={"white"}/>
                 </button>
                 <button onClick={() => handleRedirect("github")}
-                        className="text-base font-normal text-gray-300 cursor-pointer hover:bg-gray-800 p-1 rounded-l"
+                        className="text-base font-normal text-gray-300 cursor-pointer hover:bg-gray-800 p-1 rounded-lg"
                 >
                     <FaGithub size={32} color={"white"}/>
                 </button>
                 <button onClick={() => handleRedirect("medium")}
-                        className="text-base font-normal text-gray-300 cursor-pointer hover:bg-gray-800 p-1 rounded-l"
+                        className="text-base font-normal text-gray-300 cursor-pointer hover:bg-gray-800 p-1 rounded-lg"
                 >
                     <FaMedium size={32} color={"white"}/>
                 </button>
                 <button onClick={() => handleRedirect("devto")}
-                        className="text-base font-normal text-gray-300 cursor-pointer hover:bg-gray-800 p-1 rounded-l"
+                        className="text-base font-normal text-gray-300 cursor-pointer hover:bg-gray-800 p-1 rounded-lg"
                 >
                     <FaDev size={32} color={"white"}/>
                 </button>
                 <button onClick={() => handleRedirect("bento")}
-                        className="text-base font-normal text-gray-300 cursor-pointer hover:bg-gray-800 p-1 rounded-l"
+                        className="text-base font-normal text-gray-300 cursor-pointer hover:bg-gray-800 p-1 rounded-lg"
                 >
                     <SiBento size={32} color={"white"}/>
                 </button>
                 <button onClick={() => handleRedirect("threads")}
-                        className="text-base font-normal text-gray-300 cursor-pointer hover:bg-gray-800 p-1 rounded-l"
+                        className="text-base font-normal text-gray-300 cursor-pointer hover:bg-gray-800 p-1 rounded-lg"
                 >
                     <FaThreads size={32} color={"white"}/>
                 </button>
                 <button onClick={() => handleRedirect("twitter")}
-                        className="text-base font-normal text-gray-300 cursor-pointer hover:bg-gray-800 p-1 rounded-l"
+                        className="text-base font-normal text-gray-300 cursor-pointer hover:bg-gray-800 p-1 rounded-lg"
                 >
                     <FaXTwitter size={32} color={"white"}/>
                 </button>
                 <button onClick={() => handleRedirect("instagram")}
-                        className="text-base font-normal text-gray-300 cursor-pointer hover:bg-gray-800 p-1 rounded-l"
+                        className="text-base font-normal text-gray-300 cursor-pointer hover:bg-gray-800 p-1 rounded-lg"
                 >
                     <FaInstagram size={32} color={"white"}/>
                 </button>
