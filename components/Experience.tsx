@@ -56,10 +56,10 @@ const ExperienceCard = ({ title, desc, year, company, companyLink }: ExperienceC
             </h1>
             <div className="experience-card border p-4 rounded-md shadow-xl bg-gray-800 z-10 mx-4">
                 <h1 className="font-semibold text-xl">{title}</h1>
-                <a href={companyLink} className="text-gray-500">
+                <a href={companyLink} className="text-gray-200" target={"_blank"}>
                     {company}
                 </a>
-                <p className="text-gray-400 my-2 whitespace-pre-line">{desc}</p>
+                <p className="text-gray-200 my-2 whitespace-pre-line">{desc}</p>
             </div>
         </div>
     );

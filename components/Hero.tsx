@@ -50,7 +50,7 @@ export default function Hero() {
                         strokeWidth={strokeWidth}
                     >
                         <h1 className="text-4xl md:text-8xl font-bold text-gray-200 my-2">
-                            Programmer.
+                            Blogger.
                         </h1>
                     </RoughNotation>
                     {/*<RoughNotation*/}
@@ -69,7 +69,7 @@ export default function Hero() {
             </div>
             {/* Image container */}
             <div className="mt-4 g:mt-20">
-                <img src={"/dd.JPG"} alt="avatar" className="shadow rounded-2xl object-contain" />
+                <img src={"/dd.webp"} alt="avatar" className="shadow rounded-2xl object-contain" />
             </div>
         </div>
     );

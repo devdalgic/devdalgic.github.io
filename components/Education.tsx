@@ -57,10 +57,10 @@ const EducationCard = ({title, institute, year, company, instituteLink}: Educati
             </h1>
             <div className="experience-card border p-4 rounded-md shadow-xl bg-gray-900 z-10 mx-4">
                 <h1 className="font-semibold text-xl">{title}</h1>
-                <a href={instituteLink} className="text-gray-500">
+                <a href={instituteLink} className="text-gray-200">
                     {company}
                 </a>
-                <p className="text-gray-400 my-2">{institute}</p>
+                <p className="text-gray-200 my-2">{institute}</p>
             </div>
         </div>
     );

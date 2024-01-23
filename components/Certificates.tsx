@@ -39,10 +39,10 @@ const CertificateCard = (certificate: CertificateCardProps) => {
             <h1 className="font-semibold text-xl text-gray-200">
                 {certificate.certificate.title}
             </h1>
-            <p className="text-base font-normal my-2 text-gray-500">
+            <p className="text-base font-normal my-2 text-gray-300">
                 {certificate.certificate.institute}
             </p>
-            <p className="text-base font-normal my-2 text-gray-500">
+            <p className="text-base font-normal my-2 text-gray-300">
                 {certificate.certificate.year}
             </p>
             <a

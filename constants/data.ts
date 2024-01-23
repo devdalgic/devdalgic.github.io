@@ -85,7 +85,7 @@ const userData = {
             title: "Data Insights and Analytics Intern",
             company: "Turkcell",
             year: "Aug 2020 - Jun 2021",
-            companyLink: "https://intel.com",
+            companyLink: "https://www.turkcell.com.tr",
             desc: "Evaluated and implemented software improving team agility\nCollected KPIs and prepared analysis\nResearched the psychological effects of consumer experience",
         },
     ],
@@ -138,19 +138,19 @@ const userData = {
     skills: [
         {
             name: "Kotlin",
-            description: "Native Android development with Kotlin\nUsing Coroutines, MVVM Pattern, Room, Retrofit and Dagger",
+            description: "Native Android development\nUsing Coroutines, MVVM Pattern, Room, Retrofit and Dagger",
         },
         {
             name: "React.js",
-            description: "Web applications with React.js\nUsing Next.js and Tailwind",
+            description: "Web applications\nUsing Redux, Next.js and Tailwind",
         },
         {
             name: "React Native",
-            description: "Cross-platform mobile applications with React Native\nUsing Expo and React Navigation",
+            description: "Cross-platform mobile applications\nUsing Expo and React Navigation",
         },
         {
             name: "C#",
-            description: "Game development with Unity\nUsing C# and Unity",
+            description: "Game development with Unity",
         }
     ],
     resumeUrl:

@@ -38,7 +38,7 @@ const SkillCard = (skill: SkillCardProps ) => {
             <h1 className="font-semibold text-xl text-gray-200">
                 {skill.skill.name}
             </h1>
-            <p className="text-base font-normal my-2 text-gray-500 whitespace-pre-line">
+            <p className="text-base font-normal my-2 text-gray-300 whitespace-pre-line">
                 {skill.skill.description}
             </p>
         </div>
