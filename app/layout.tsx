@@ -20,7 +20,7 @@ export const metadata: Metadata = {
         description: "Personal website of Denizhan Dalgic",
         siteName: "Denizhan Dalgic Portfolio Website",
         images: [{
-            url: "https://devdalgic.github.io/dd.jpg",
+            url: "/dd.webp",
         }],
     }
 }
