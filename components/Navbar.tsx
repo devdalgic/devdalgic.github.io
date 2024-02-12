@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import {FaDev, FaGithub, FaInstagram, FaLinkedinIn, FaMedium, FaThreads, FaXTwitter} from "react-icons/fa6";
+import {FaDev, FaGithub, FaLinkedinIn, FaMedium, FaThreads, FaXTwitter, FaYoutube} from "react-icons/fa6";
 import {SiBento} from "react-icons/si";
 import userData from "@/constants/data";
 import {useAptabase} from "@aptabase/react";
@@ -11,7 +11,11 @@ export default function Navbar() {
     const { trackEvent } = useAptabase();
 
     const handleRedirect = (url: string) => {
-        trackEvent("visit", {url});
+        if(process.env.NODE_ENV !== "development") {
+            trackEvent("visit", {url});
+        } else {
+            console.log("Ignored click event")
+        }
         // @ts-ignore
         window.open(userData.socialLinks[url] as string, "_blank");
     }
@@ -110,8 +114,14 @@ export default function Navbar() {
 
             <div className="my-6 lg:my-0 place-content-center lg:place-content-end
             grid lg:grid-rows-1 lg:grid-cols-8 lg:gap-y-0 gap-x-12 grid-cols-4 grid-rows-2 gap-y-6">
-                <button onClick={() => handleRedirect("linkedin")} className={"cursor-pointer hover:bg-gray-800 p-1 rounded-lg"}>
+                <button onClick={() => handleRedirect("linkedin")}
+                        className={"cursor-pointer hover:bg-gray-800 p-1 rounded-lg"}>
                     <FaLinkedinIn size={32} color={"white"}/>
+                </button>
+                <button onClick={() => handleRedirect("youtube")}
+                        className="text-base font-normal text-gray-300 cursor-pointer hover:bg-gray-800 p-1 rounded-lg"
+                >
+                    <FaYoutube size={32} color={"white"}/>
                 </button>
                 <button onClick={() => handleRedirect("github")}
                         className="text-base font-normal text-gray-300 cursor-pointer hover:bg-gray-800 p-1 rounded-lg"
@@ -143,11 +153,11 @@ export default function Navbar() {
                 >
                     <FaXTwitter size={32} color={"white"}/>
                 </button>
-                <button onClick={() => handleRedirect("instagram")}
-                        className="text-base font-normal text-gray-300 cursor-pointer hover:bg-gray-800 p-1 rounded-lg"
-                >
-                    <FaInstagram size={32} color={"white"}/>
-                </button>
+                {/*<button onClick={() => handleRedirect("instagram")}*/}
+                {/*        className="text-base font-normal text-gray-300 cursor-pointer hover:bg-gray-800 p-1 rounded-lg"*/}
+                {/*>*/}
+                {/*    <FaInstagram size={32} color={"white"}/>*/}
+                {/*</button>*/}
                 {/*<button onClick={() => handleRedirect("telegram")}*/}
                 {/*        className="text-base font-normal text-gray-600 dark:text-gray-300 cursor-pointer"*/}
                 {/*>*/}
