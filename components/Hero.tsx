@@ -53,18 +53,20 @@ export default function Hero() {
                             Blogger.
                         </h1>
                     </RoughNotation>
-                    {/*<RoughNotation*/}
-                    {/*    type="highlight"*/}
-                    {/*    multiline={true}*/}
-                    {/*    padding={[0, 2]}*/}
-                    {/*    iterations={1}*/}
-                    {/*    animationDuration={animationDuration}*/}
-                    {/*    color={colors[3]}*/}
-                    {/*>*/}
-                    {/*    <h1 className="text-4xl md:text-8xl font-bold text-gray-700 dark:text-gray-200 my-2">*/}
-                    {/*        Youtuber.*/}
-                    {/*    </h1>*/}
-                    {/*</RoughNotation>*/}
+                    <RoughNotation
+                        type="underline"
+                        multiline={true}
+                        padding={[0, 5]}
+                        iterations={iterations}
+                        animationDelay={animationDelay}
+                        animationDuration={animationDuration}
+                        color={colors[3]}
+                        strokeWidth={strokeWidth}
+                    >
+                        <h1 className="text-4xl md:text-8xl font-bold text-gray-200 my-2">
+                            Youtuber.
+                        </h1>
+                    </RoughNotation>
                 </RoughNotationGroup>
             </div>
             {/* Image container */}
