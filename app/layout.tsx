@@ -7,8 +7,8 @@ import {AptabaseProvider} from "@aptabase/react";
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'Denizhan Dalgic Portfolio Website',
-  description: 'Personal website of Denizhan Dalgic',
+    title: 'Denizhan Dalgic Portfolio Website',
+    description: 'Personal website of Denizhan Dalgic',
     keywords: ["denizhan", "dalgic", "denizhandalgic", "denizhan dalgic", "denizhan dalgıç", "portfolio", "devdalgic"],
     creator: "Denizhan Dalgic",
     authors: [{name: "Denizhan Dalgic"}],

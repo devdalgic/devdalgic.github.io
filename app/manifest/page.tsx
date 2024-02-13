@@ -1,5 +1,25 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
+import type {Metadata} from "next";
+
+export const metadata: Metadata = {
+    title: 'Ürün Odaklı Mühendisin Özellikleri - Denizhan Dalgic Portfolio Website',
+    description: 'Personal website of Denizhan Dalgic',
+    keywords: ["denizhan", "dalgic", "denizhandalgic", "denizhan dalgic", "denizhan dalgıç", "ürün odaklı mühendislik", "mühendislik"],
+    creator: "Denizhan Dalgic",
+    authors: [{name: "Denizhan Dalgic"}],
+    robots: "index, follow",
+    openGraph: {
+        type: "website",
+        url: "https://devdalgic.github.io",
+        title: "Ürün Odaklı Mühendisin Özellikleri - Denizhan Dalgic Portfolio Website",
+        description: "Personal website of Denizhan Dalgic",
+        siteName: "Ürün Odaklı Mühendisin Özellikleri - Denizhan Dalgic Portfolio Website",
+        images: [{
+            url: "/dd.webp",
+        }],
+    }
+}
 
 export default function Page() {
     const mainDiv = "h-full space-y-2 mt-8 flex flex-col justify-around lg:px-32 sm: px-6"
