@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import type {Metadata} from "next";
 
 export const metadata: Metadata = {
-    title: 'Ürün Odaklı Mühendisin Özellikleri - Denizhan Dalgic Portfolio Website',
+    title: 'Ürün Odaklı Mühendisin Manifestosu - Denizhan Dalgic Portfolio Website',
     description: 'Personal website of Denizhan Dalgic',
     keywords: ["denizhan", "dalgic", "denizhandalgic", "denizhan dalgic", "denizhan dalgıç", "ürün odaklı mühendislik", "mühendislik"],
     creator: "Denizhan Dalgic",
@@ -12,9 +12,9 @@ export const metadata: Metadata = {
     openGraph: {
         type: "website",
         url: "https://devdalgic.github.io",
-        title: "Ürün Odaklı Mühendisin Özellikleri - Denizhan Dalgic Portfolio Website",
+        title: "Ürün Odaklı Mühendisin Manifestosu - Denizhan Dalgic Portfolio Website",
         description: "Personal website of Denizhan Dalgic",
-        siteName: "Ürün Odaklı Mühendisin Özellikleri - Denizhan Dalgic Portfolio Website",
+        siteName: "Ürün Odaklı Mühendisin Manifestosu - Denizhan Dalgic Portfolio Website",
         images: [{
             url: "/dd.webp",
         }],
@@ -23,13 +23,14 @@ export const metadata: Metadata = {
 
 export default function Page() {
     const mainDiv = "h-full space-y-2 mt-8 flex flex-col justify-around lg:px-32 sm: px-6"
-    const headerCn = "font-bold text-center text-gray-200 text-2xl mb-8"
-    const listCn = "space-y-2"
+    const headerCn = "font-bold text-center text-gray-200 text-2xl"
+    const listCn = "mt-8 space-y-2"
 
     // if(navigator.language.startsWith("tr")) {
         return (
             <div className={mainDiv}>
-                <h2 className={headerCn}>Ürün Odaklı Mühendisin Özellikleri</h2>
+                <h2 className={headerCn}>Ürün Odaklı Mühendisin Manifestosu</h2>
+                <h3 className={"text-gray-400 text-center mb-12"}>Son Güncelleme: 14.02.24</h3>
                 <ol className={listCn}>
                     <li>1. Ürün odaklı mühendisler, çalıştıkları ürüne gerçekten ilgi duyan ve ürün üzerindeki kararların
                         nasıl verildiğini merak eden mühendislerdir.
