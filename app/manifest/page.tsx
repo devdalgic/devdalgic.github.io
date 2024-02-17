@@ -54,25 +54,22 @@ export default function Page() {
                     <li>7. Ürün özelliklerini değerlendirirken mühendislik bakış açısını kullanır ve özelliklerin müşteriye
                         olan potansiyel etkisini dikkate alır.
                     </li>
-                    <li>8. Uç durumlarla karşılaştıklarında dengeleyici çözümler bulma yeteneklerine sahiptirler ve
-                        kullanıcıların ihtiyaçlarına uygun özellikler geliştirirler.
-                    </li>
-                    <li>9. Ürünün erken aşamalarında bile özellikleri test etme ve geri bildirim almak için yaratıcı yollar
+                    <li>8. Ürünün erken aşamalarında bile özellikleri test etme ve geri bildirim almak için yaratıcı yollar
                         bulurlar.
                     </li>
-                    <li>10. Geliştirdikleri özelliklerin kullanıcılar tarafından nasıl karşılandığını sürekli olarak izler
+                    <li>9. Geliştirdikleri özelliklerin kullanıcılar tarafından nasıl karşılandığını sürekli olarak izler
                         ve geri bildirimlere dayanarak ürünü sürekli olarak iyileştirme çabası içindedirler.
                     </li>
-                    <li>11. Ürün özelliklerini geliştirirken nedenlerini sorgular ve alternatif fikirler üretirler,
+                    <li>10. Ürün özelliklerini geliştirirken nedenlerini sorgular ve alternatif fikirler üretirler,
                         önerilerde bulunurlar ve bu önerilerin faydalı olup olmadığını değerlendirirler.
                     </li>
-                    <li>12. Ürün yöneticisiyle güçlü bir bağ kurarlar ve ürünün vizyonunu ve stratejisini anlamak için yakın
+                    <li>11. Ürün yöneticisiyle güçlü bir bağ kurarlar ve ürünün vizyonunu ve stratejisini anlamak için yakın
                         işbirliği yaparlar.
                     </li>
-                    <li>13. Kullanıcı araştırmalarına ve müşteri desteğine aktif olarak katılırlar ve bu bilgileri ürün
+                    <li>12. Kullanıcı araştırmalarına ve müşteri desteğine aktif olarak katılırlar ve bu bilgileri ürün
                         geliştirme sürecinde kullanırlar.
                     </li>
-                    <li>14. Ürün özelliklerini belirleme konusunda pazarı ve rekabet ortamını anlamak için metrikler ve geri
+                    <li>13. Ürün özelliklerini belirleme konusunda pazarı ve rekabet ortamını anlamak için metrikler ve geri
                         bildirimlere güçlü bir vurgu yaparlar.
                     </li>
                 </ol>
