@@ -2,7 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
-import {FaDev, FaGithub, FaLinkedinIn, FaMedium, FaThreads, FaXTwitter, FaYoutube} from "react-icons/fa6";
+import {FaGithub, FaLinkedinIn, FaMedium, FaXTwitter, FaYoutube} from "react-icons/fa6";
 import {SiBento} from "react-icons/si";
 import userData from "@/constants/data";
 import {useAptabase} from "@aptabase/react";
@@ -133,21 +133,21 @@ export default function Navbar() {
                 >
                     <FaMedium size={32} color={"white"}/>
                 </button>
-                <button onClick={() => handleRedirect("devto")}
-                        className="text-base font-normal text-gray-300 cursor-pointer hover:bg-gray-800 p-1 rounded-lg"
-                >
-                    <FaDev size={32} color={"white"}/>
-                </button>
+                {/*<button onClick={() => handleRedirect("devto")}*/}
+                {/*        className="text-base font-normal text-gray-300 cursor-pointer hover:bg-gray-800 p-1 rounded-lg"*/}
+                {/*>*/}
+                {/*    <FaDev size={32} color={"white"}/>*/}
+                {/*</button>*/}
                 <button onClick={() => handleRedirect("bento")}
                         className="text-base font-normal text-gray-300 cursor-pointer hover:bg-gray-800 p-1 rounded-lg"
                 >
                     <SiBento size={32} color={"white"}/>
                 </button>
-                <button onClick={() => handleRedirect("threads")}
-                        className="text-base font-normal text-gray-300 cursor-pointer hover:bg-gray-800 p-1 rounded-lg"
-                >
-                    <FaThreads size={32} color={"white"}/>
-                </button>
+                {/*<button onClick={() => handleRedirect("threads")}*/}
+                {/*        className="text-base font-normal text-gray-300 cursor-pointer hover:bg-gray-800 p-1 rounded-lg"*/}
+                {/*>*/}
+                {/*    <FaThreads size={32} color={"white"}/>*/}
+                {/*</button>*/}
                 <button onClick={() => handleRedirect("twitter")}
                         className="text-base font-normal text-gray-300 cursor-pointer hover:bg-gray-800 p-1 rounded-lg"
                 >
