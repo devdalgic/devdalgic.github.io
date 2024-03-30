@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "@/components/Navbar";
 import type {Metadata} from "next";
+import Content from "@/components/Content";
 
 export const metadata: Metadata = {
     title: 'Ürün Odaklı Mühendisin Manifestosu - Denizhan Dalgic Portfolio Website',
@@ -74,6 +75,7 @@ export default function Page() {
                     </li>
                 </ol>
                 <Navbar />
+                <Content />
             </div>
         )
     // } else {
