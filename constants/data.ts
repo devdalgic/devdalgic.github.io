@@ -164,7 +164,7 @@ const userData = {
         "bento": "https://bento.me/devdalgic",
         "medium": "https://medium.com/@denizhandalgic",
         "threads": "https://threads.net/@devdalgic",
-        "youtube": "https://www.youtube.com/@denizhandalgic",
+        "youtube": "https://www.youtube.com/channel/UCmlOv8tzf3mJGPe7FC6iQ9Q?sub_confirmation=1",
         "devto": "https://dev.to/devdalgic",
     },
 };

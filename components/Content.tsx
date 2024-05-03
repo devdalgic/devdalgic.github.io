@@ -21,7 +21,7 @@ export default function Content() {
     return (
         <div className="w-full flex flex-col lg:flex-row justify-center px-4">
             <button className="flex flex-col bg-[#B2071D] hover:bg-[#d40823] py-8 items-center px-4 w-full lg:w-1/4"
-                    onClick={() => handleRedirect("https://www.youtube.com/@denizhandalgic")}>
+                    onClick={() => handleRedirect("https://www.youtube.com/channel/UCmlOv8tzf3mJGPe7FC6iQ9Q?sub_confirmation=1")}>
                 <FaYoutube size={48} color={"white"}/>
                 <h2 className={"mt-4"}>Youtube</h2>
             </button>
