@@ -91,6 +91,12 @@ const userData = {
     ],
     education: [
         {
+            title: "MSc, Computer Engineering",
+            institute: "Istanbul Technical University",
+            year: "2023 - Present",
+            instituteLink: "https://itu.edu.tr",
+        },
+        {
             title: "BSc, Electronics and Communication Engineering",
             institute: "Istanbul Technical University",
             year: "2017 - 2022",
